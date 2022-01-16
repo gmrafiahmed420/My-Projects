@@ -1,0 +1,94 @@
+/* common css start----------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: bolder;
+    margin: 25px 0px;
+    color: #ff468f;
+}
+
+/* common css end----------------------- */
+
+
+
+/* utility classes start-----------------------*/
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-gap {
+    padding: 100px 0px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 25px;
+    color: #fff;
+    background-color: #ff468f;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.section-heading {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.description {
+    font-size: 16px;
+    margin: 35px 0px 25px 0px;
+}
+
+/* utility classes end-----------------------*/
+
+
+
+
+/* header and biography css start ------------------*/
+
+#header_area {
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    flex-basis: 40%;
+}
+
+.img {
+    flex-basis: 35%;
+}
+
+#biography_area {
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header and biography css end ------------------*/
